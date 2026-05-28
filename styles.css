@@ -1,0 +1,65 @@
+# styles.css
+  transition: 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(0,102,255,0.4);
+}
+
+.project-card h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 24px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #80b3ff;
+  font-weight: bold;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.tags span {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  font-size: 0.85rem;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h2 {
+    font-size: 3rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    gap: 16px;
+  }
+}
+```
