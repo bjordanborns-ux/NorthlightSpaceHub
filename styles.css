@@ -33,7 +33,7 @@ body {
   margin: 0;
   font-family: var(--sans);
   color: var(--text);
-  background: background: linear-gradient(180deg, #0b1220, #0f1a2e 60%, #0c1526);
+  background: linear-gradient(180deg, #0b1220, #0f1a2e 60%, #0c1526);
 }
 
 body::before {
@@ -224,7 +224,7 @@ a:hover {
   align-items: center;
   gap: 10px;
   font-size: 13px;
-  color: rgba(120, 160, 255, 0.6);
+  color: rgba(235, 240, 255, 0.5);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-family: var(--mono);
@@ -265,7 +265,7 @@ a:hover {
   margin: 0 0 18px;
   font-size: 16px;
   line-height: 1.65;
-  color: rgba(120, 160, 255, 0.72);
+  color: rgba(235, 240, 255, 0.65);
   max-width: 64ch;
 }
 
@@ -328,7 +328,7 @@ a:hover {
 
 .pill-label {
   font-size: 12px;
-  color: rgba(120, 160, 255, 0.6);
+  color: rgba(235, 240, 255, 0.5);
   font-family: var(--mono);
 }
 
@@ -365,7 +365,7 @@ a:hover {
 
 .panel-subtitle {
   margin: 2px 0 0;
-  color: rgba(120, 160, 255, 0.64);
+  color: rgba(235, 240, 255, 0.65);
   font-size: 13px;
 }
 
@@ -384,14 +384,14 @@ a:hover {
 .metric-label {
   margin: 0 0 4px;
   font-size: 12px;
-  color: rgba(120, 160, 255, 0.6);
+  color: rgba(235, 240, 255, 0.5);
   font-family: var(--mono);
 }
 
 .metric-value {
   margin: 0;
   font-size: 14px;
-  color: rgba(120, 160, 255, 0.86);
+  color: rgba(235, 240, 255, 0.9);
 }
 
 .panel-footer {
@@ -429,7 +429,7 @@ a:hover {
 
 .section-head p {
   margin: 0;
-  color: rgba(120, 160, 255, 0.72);
+  color: rgba(235, 240, 255, 0.65);
   line-height: 1.6;
 }
 
@@ -524,7 +524,7 @@ a:hover {
 
 .project-subtitle {
   margin: 6px 0 0;
-  color: rgba(120, 160, 255, 0.68);
+  color: rgba(235, 240, 255, 0.65);
   line-height: 1.5;
   font-size: 13px;
 }
@@ -594,12 +594,12 @@ a:hover {
 .glance-k {
   font-size: 12px;
   font-family: var(--mono);
-  color: rgba(120, 160, 255, 0.62);
+  color: rgba(235, 240, 255, 0.5);
 }
 
 .glance-v {
   font-size: 13px;
-  color: rgba(120, 160, 255, 0.82);
+  color: rgba(235, 240, 255, 0.9);
   font-weight: 650;
 }
 
@@ -626,7 +626,7 @@ a:hover {
   border-radius: var(--radius2);
   padding: 16px;
   line-height: 1.7;
-  color: rgba(120, 160, 255, 0.76);
+  color: rgba(235, 240, 255, 0.65);
 }
 
 .stack {
@@ -654,7 +654,7 @@ a:hover {
 
 .hint {
   margin: 12px 0 0;
-  color: rgba(120, 160, 255, 0.6);
+  color: rgba(235, 240, 255, 0.65);
   font-size: 13px;
   line-height: 1.6;
 }
@@ -677,7 +677,7 @@ a:hover {
 
 .card p {
   margin: 0;
-  color: rgba(120, 160, 255, 0.72);
+  color: rgba(235, 240, 255, 0.65);
   line-height: 1.65;
 }
 
@@ -705,12 +705,12 @@ a:hover {
 
 .contact-k {
   font-family: var(--mono);
-  color: rgba(120, 160, 255, 0.62);
+  color: rgba(235, 240, 255, 0.5);
   font-size: 12px;
 }
 
 .contact-v {
-  color: rgba(120, 160, 255, 0.86);
+  color: rgba(235, 240, 255, 0.9);
   font-weight: 650;
   font-size: 13px;
 }
@@ -733,7 +733,7 @@ a:hover {
 
 .field span {
   font-size: 12px;
-  color: rgba(120, 160, 255, 0.62);
+  color: rgba(235, 240, 255, 0.5);
   font-family: var(--mono);
 }
 
@@ -801,7 +801,7 @@ textarea:focus {
 .modal-eyebrow {
   margin: 0 0 6px;
   font-size: 12px;
-  color: rgba(120, 160, 255, 0.6);
+  color: rgba(235, 240, 255, 0.5);
   font-family: var(--mono);
 }
 
@@ -929,7 +929,7 @@ textarea:focus {
 .highlight-k {
   margin: 0 0 6px;
   font-size: 12px;
-  color: rgba(120, 160, 255, 0.58);
+  color: rgba(235, 240, 255, 0.5);
   font-family: var(--mono);
 }
 
