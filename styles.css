@@ -33,7 +33,11 @@ body {
   margin: 0;
   font-family: var(--sans);
   color: var(--text);
-  background: linear-gradient(180deg, #0b1220, #0f1a2e 60%, #0c1526);
+  background: linear-gradient(
+  180deg,
+  rgba(39, 125, 245, 0.18),
+  #0b1220 60%,
+  #0f1a2e
 }
 
 body::before {
