@@ -1,86 +1,188 @@
-# index.html
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NorthLight Systems</title>
+  <title>NorthLight | Aerospace Software Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="container nav">
-      <div>
-        <h1 class="logo">NorthLight</h1>
-        <p class="sublogo">Aerospace Systems Portfolio</p>
-      </div>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/Northlightlogo.png" class="main-logo" alt="NorthLight Logo">
+    </a>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="#skills">Systems</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section class="hero container">
-    <div class="hero-text">
-      <span class="badge">MISSION OPERATIONS • SOFTWARE • SYSTEMS</span>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
 
-      <h2>
-        Blake Borns<br />
-        <span>Software & Mission Operations Portfolio</span>
-      </h2>
+      <div class="hero-content">
+        <p class="eyebrow">Software • Operations • Aerospace Systems</p>
 
-      <p>
-        Focused on operational software, aerospace-inspired systems,
-        automation tools, and technical projects built around usability,
-        workflows, and scalable architecture.
-      </p>
+        <h1>
+          Mission operations.<br />
+          Built from the ground up.
+        </h1>
 
-      <div class="hero-buttons">
-        <a class="primary-btn" href="projects.html">View Projects</a>
-        <a class="secondary-btn" href="https://github.com/bjordanborns-ux" target="_blank">GitHub</a>
-      </div>
-    </div>
+        <p class="hero-copy">
+          NorthLight is a personal aerospace software portfolio focused on
+          mission operations, operational tooling, automation systems,
+          and technical projects inspired by real-world spaceflight workflows.
+        </p>
 
-    <div class="status-card">
-      <div class="status-header">
-        <h3>NorthLight Systems</h3>
-        <span class="online-dot"></span>
-      </div>
+        <div class="hero-actions">
+          <a class="button primary" href="projects.html">View Projects</a>
 
-      <div class="status-box">
-        <p>Primary Focus</p>
-        <h4>Mission Operations Software</h4>
+          <a class="button secondary"
+             href="https://github.com/bjordanborns-ux"
+             target="_blank">
+             GitHub
+          </a>
+        </div>
       </div>
 
-      <div class="status-box">
-        <p>Current Stack</p>
-        <h4>Python • Git • HTML/CSS</h4>
+      <div class="mission-card">
+        <span>Current Focus</span>
+
+        <strong>NLAS</strong>
+
+        <p>
+          Mission operations inspired workflow and management
+          system currently under active development.
+        </p>
+      </div>
+    </section>
+
+    <section id="mission" class="section split">
+      <div>
+        <p class="eyebrow">Approach</p>
+
+        <h2>
+          Operational systems.<br />
+          Technical thinking.
+        </h2>
       </div>
 
-      <div class="status-box">
-        <p>Career Direction</p>
-        <h4>Aerospace Mission Operations</h4>
+      <div>
+        <p>
+          NorthLight exists as a growing collection of aerospace-inspired software,
+          technical experiments, and operational systems focused on usability,
+          workflow structure, and mission-oriented design.
+        </p>
+
+        <p>
+          Projects range from mission operations simulations and telemetry concepts
+          to automation tools, portfolio systems, and future aerospace software ideas.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="about container">
-    <div>
-      <p class="section-label">ABOUT</p>
-      <h2>Building systems with an operations-first mindset.</h2>
-    </div>
+    <section id="projects" class="section">
+      <p class="eyebrow">Featured Projects</p>
 
-    <p>
-      My work focuses on software systems, operational workflows,
-      aerospace-inspired interfaces, and technical projects designed
-      with structure and usability in mind.
-    </p>
-  </section>
+      <h2>Current Development Work.</h2>
 
-  <section id="contact" class="contact container">
+      <div class="grid cards">
+        <article>
+          <span class="stat">01</span>
+
+          <h3>NLAS</h3>
+
+          <p>
+            Mission operations inspired management and workflow system
+            built in Python.
+          </p>
+        </article>
+
+        <article>
+          <span class="stat">02</span>
+
+          <h3>NorthLight Portfolio</h3>
+
+          <p>
+            Aerospace-focused software portfolio designed for technical
+            project presentation and interview visibility.
+          </p>
+        </article>
+
+        <article>
+          <span class="stat">03</span>
+
+          <h3>Telemetry Concepts</h3>
+
+          <p>
+            Experimental UI and telemetry visualization concepts for future
+            operational systems.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section split">
+      <div>
+        <p class="eyebrow">Technical Stack</p>
+
+        <h2>
+          Building modern<br />
+          operational systems.
+        </h2>
+      </div>
+
+      <div class="archive-table">
+        <div>
+          <span>Category</span>
+          <span>Primary</span>
+          <span>Experience</span>
+          <span>Status</span>
+        </div>
+
+        <div>
+          <span>Language</span>
+          <span>Python</span>
+          <span>Active</span>
+          <span>Growing</span>
+        </div>
+
+        <div>
+          <span>Version Control</span>
+          <span>Git/GitHub</span>
+          <span>Daily Use</span>
+          <span>Active</span>
+        </div>
+
+        <div>
+          <span>Frontend</span>
+          <span>HTML/CSS</span>
+          <span>Portfolio Dev</span>
+          <span>Active</span>
+        </div>
+
+        <div>
+          <span>Focus</span>
+          <span>Mission Ops Systems</span>
+          <span>Long-Term</span>
+          <span>Primary Goal</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <span>NorthLight Aerospace Software Portfolio</span>
+
+    <span>
+      Built for systems, operations, and technical growth.
+    </span>
+  </footer>
+</body>
+</html>
 ```
