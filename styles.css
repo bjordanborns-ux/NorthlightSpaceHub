@@ -260,7 +260,7 @@ a:hover {
 
 .hero-title {
   margin: 0 0 14px;
-  font-size: clamp(30px, 4.4vw, 52px);
+  font-size: clamp(25px, 4.4vw, 48px);
   letter-spacing: -0.02em;
   line-height: 1.08;
 }
