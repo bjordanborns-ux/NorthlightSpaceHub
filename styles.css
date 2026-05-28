@@ -1,6 +1,7 @@
 :root {
   --bg: #0b1220;
   --bg2: #0f1a2e;
+  --blue: #277DF5;
   --panel: rgba(10, 14, 25, 0.72);
   --panel2: rgba(8, 12, 22, 0.62);
   --stroke: rgba(120, 160, 255, 0.12);
@@ -33,11 +34,18 @@ body {
   margin: 0;
   font-family: var(--sans);
   color: var(--text);
-  background: linear-gradient(
-  180deg,
-  rgba(39, 125, 245, 0.18),
-  #0b1220 60%,
-  #0f1a2e
+  background:
+    radial-gradient(
+      900px 600px at 20% 10%,
+      rgba(39, 125, 245, 0.25),
+      transparent 60%
+    ),
+    radial-gradient(
+      700px 500px at 80% 30%,
+      rgba(39, 125, 245, 0.12),
+      transparent 65%
+    ),
+    linear-gradient(180deg, var(--bg), var(--bg2));
 }
 
 body::before {
